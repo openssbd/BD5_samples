@@ -1,7 +1,7 @@
 Copyright (C) 2020 RIKEN
 
 ## Sample codes and tools for reading and writing BD5 file format
-* This repository contains the sample source codes for reading and writing BD5 file formats using Python.
+* This repository contains the sample source codes for reading and writing BD5 file formats using Python in Juypter notebook.
 * The samples include codes using either the h5py or pytables packages.
 
 ## Sample codes in Juypter notebook:
