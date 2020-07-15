@@ -27,7 +27,8 @@ Copyright (C) 2020 RIKEN
     * Writing line, face, sphere, point and circle numpy arrays to BD5 files
 * [BD5append_trackinfo_point](BD5append_trackinfo_point.ipynb) (uses h5py) with explanation
     * Reading in a BD5 file with time series information. It tries to calculate and track the objects over two time points and then append the trackInfo information to a BD5 file. 
-
+* [BD5read_count](BD5read_count.ipynb) (uses h5py)
+    * Reading in an existing BD5 file and do some simple analysis by counting the number of nucleus vs time point and ploting out a prolification curve of C.elegans.
 ### Sample codes writing BD5 files using pytables
 * [BD5write_circle_details](BD5write_circle_details.ipynb) (uses pytables) with explanation
 * [BD5write_circle](BD5write_circle.ipynb) (uses pytables)
