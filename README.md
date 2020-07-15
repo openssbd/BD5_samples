@@ -6,7 +6,7 @@ Copyright (C) 2020 RIKEN
 
 ## Sample codes in Juypter notebook:
 
-### Sample codes writing BD5 object entities:
+### Sample codes for writing BD5 object entities:
 ![BD5 object entities](BD5numpy_examples.png?raw=true)
 
 * Writing out object entities, line, point, circle, sphere and face.
@@ -20,7 +20,7 @@ Copyright (C) 2020 RIKEN
     * [BD5write_line](BD5write_line.ipynb) (uses pytables)
         * Reading in an image segmentation data stored in a TIFF image file, and write it as a line in BD5 format. 
 
-### Sample codes writing BD5 files using h5py
+### Sample codes for writing BD5 files using h5py
 * [CSVread_BD5write](CSVread_BD5write.ipynb) (uses h5py) with explanation
     * Reading in a BD5 file and writing out a CSV file/Reading in CSV file and writing out a BD5 file     
 * [BD5write_numpy](BD5write_numpy.ipynb) (uses h5py)
@@ -28,8 +28,11 @@ Copyright (C) 2020 RIKEN
 * [BD5append_trackinfo_point](BD5append_trackinfo_point.ipynb) (uses h5py) with explanation
     * Reading in a BD5 file with time series information. It tries to calculate and track the objects over two time points and then append the trackInfo information to a BD5 file. 
 * [BD5read_count](BD5read_count.ipynb) (uses h5py)
-    * Reading in an existing BD5 file and do some simple analysis by counting the number of nucleus vs time point and ploting out a prolification curve of C.elegans.
-### Sample codes writing BD5 files using pytables
+    * Reading in an existing BD5 file and do some simple analysis by counting the number of nucleus vs time point and ploting out a prolification curve of *C.elegans*.
+* [BD5read_displacement](BD5read_displacement.ipynb) (uses h5py)
+    * Reading in an existing BD5 file and do some simple analysis by calculating the displacement of ABal nucleus of *C.elegans*
+
+### Sample codes for writing BD5 files using pytables
 * [BD5write_circle_details](BD5write_circle_details.ipynb) (uses pytables) with explanation
 * [BD5write_circle](BD5write_circle.ipynb) (uses pytables)
     * Reading in an image segmentation data stored in a TIFF image file, and write it as a circle in BD5 format.
