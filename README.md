@@ -25,7 +25,7 @@ Copyright (C) 2020 RIKEN
     * Reading in a BD5 file and writing out a CSV file/Reading in CSV file and writing out a BD5 file     
 * [BD5write_numpy](BD5write_numpy.ipynb) (uses h5py)
     * Writing line, face, sphere, point and circle numpy arrays to BD5 files
-* [BD5append_trackinfo_point](BD5append_trackinfo_point) (uses h5py) with explanation
+* [BD5append_trackinfo_point](BD5append_trackinfo_point.ipynb) (uses h5py) with explanation
     * Reading in a BD5 file with time series information. It tries to calculate and track the objects over two time points and then append the trackInfo information to a BD5 file. 
 
 ### Sample codes writing BD5 files using pytables
