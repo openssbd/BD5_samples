@@ -28,7 +28,7 @@ Copyright (C) 2020 RIKEN
 * [BD5append_trackinfo_point](BD5append_trackinfo_point.ipynb) (uses h5py) with explanation
     * Reading in a BD5 file with time series information. It tries to calculate and track the objects over two time points and then append the trackInfo information to a BD5 file. 
 * [BD5read_count](BD5read_count.ipynb) (uses h5py)
-    * Reading in an existing BD5 file and do some simple analysis by counting the number of nucleus vs time point and ploting out a prolification curve of *C.elegans*.
+    * Reading in an existing BD5 file and do some simple analysis by counting the number of nuclei vs time point and plotting out a proliferation curve of *C.elegans*. curve of *C.elegans*.
 * [BD5read_displacement](BD5read_displacement.ipynb) (uses h5py)
     * Reading in an existing BD5 file and do some simple analysis by calculating the displacement of ABal nucleus of *C.elegans*
 
