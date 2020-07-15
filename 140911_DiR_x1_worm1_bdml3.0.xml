@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bdml version="3.0" xmlns="http://ssbd.qbic.riken.jp/bdml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ssbd.qbic.riken.jp/bdml http://ssbd.qbic.riken.jp/bdml/bdml3.0.xsd">
+<info>
+	<bdmlID>96a289cb-72ea-477b-8f5f-2c916571db4a</bdmlID>
+	<title>BDML file for quantitative information about neuronal nuclei in C. elegans (strain JN2100) adult extracted from 3D single-channel laser-scanning confocal microscopy (LSCM) images</title>
+	<release>2017-10-03</release>
+	<license>CC BY-NC-SA</license>
+</info>
+<summary>
+	<description>quantitative information about neuronal nuclei in C. elegans (strain JN2100) adult extracted from 3D single-channel laser-scanning confocal microscopy (LSCM) images</description>
+	<datatype>neuronal nuclear dynamics</datatype>
+	<organism>C. elegans</organism>
+	<localID>140911_DiR_x1_worm1</localID>
+	<basedon>Experiment</basedon>
+	<contributors>
+		<person>
+			<first-name>Yu</first-name>
+			<last-name>Toyoshima</last-name>
+			<ORCID>0000-0001-5239-2235</ORCID>
+		</person>
+		<person>
+			<first-name>Terumasa</first-name>
+			<last-name>Tokunaga</last-name>
+		</person>
+		<person>
+			<first-name>Osamu</first-name>
+			<last-name>Hirose</last-name>
+		</person>
+		<person>
+			<first-name>Manami</first-name>
+			<last-name>Kanamori</last-name>
+		</person>
+		<person>
+			<first-name>Takayuki</first-name>
+			<last-name>Teramoto</last-name>
+		</person>
+		<person>
+			<first-name>Moon Sun</first-name>
+			<last-name>Jang</last-name>
+		</person>
+		<person>
+			<first-name>Sayuri</first-name>
+			<last-name>Kuge</last-name>
+		</person>
+		<person>
+			<first-name>Takeshi</first-name>
+			<last-name>Ishihara</last-name>
+		</person>
+		<person>
+			<first-name>Ryo</first-name>
+			<last-name>Yoshida</last-name>
+		</person>
+		<person>
+			<first-name>Yuichi</first-name>
+			<last-name>Iino</last-name>
+		</person>
+	</contributors>
+	<PMID>27271939</PMID>
+	<dblink>http://www.ncbi.nlm.nih.gov/pubmed/27271939</dblink>
+</summary>
+<contact>
+	<person>
+		<first-name>Yu</first-name>
+		<last-name>Toyoshima</last-name>
+		<ORCID>0000-0001-5239-2235</ORCID>
+		<affiliation>
+			<E-mail>ytoyo@bs.s.u-tokyo.ac.jp</E-mail>
+			<organization>The University of Tokyo</organization>
+			<department>Department of Biological Sciences</department>
+			<address>2-2-3 Minatojima-minamimachi, Chuo-ku, Kobe 650-0047, Japan</address>
+		</affiliation>
+	</person>
+</contact>
+<methods>
+	<summary>See details in Toyoshima et al. (2016) PLoS Computational Biology, 12(6): e1004970</summary>
+	<source>http://ssbd.qbic.riken.jp/data/source/Ce_NEU_TY/140911_DiR_x1_worm1.zip</source>
+</methods>
+<extfile>
+	<bd5File>140911_DiR_x1_worm1_bd5.h5</bd5File>
+</extfile>
+</bdml>
